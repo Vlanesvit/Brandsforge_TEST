@@ -1,6 +1,6 @@
 # Brandsforge_TEST
 
-##Автор: [Влад Нестеров](vk.com/vlanesvit)
+## Автор: [Влад Нестеров](vk.com/vlanesvit)
 
 ## Как начать или как поднять проект
 
