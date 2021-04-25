@@ -136,18 +136,18 @@ iframe {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  position: relative;
 }
 
 .fox-anim {
+  position: relative;
   height: 400px;
   width: 500px;
 }
 
 .fox-anim canvas {
   position: absolute;
-  left: -200px;
-  top: -70px;
+  left: -350px;
+  top: -150px;
 }
 
 .card {
@@ -184,8 +184,8 @@ iframe {
           perspective: 1000px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-  max-width: 284px;
-  max-height: 444px;
+  width: 284px;
+  height: 444px;
 }
 
 .card-content {
@@ -251,8 +251,8 @@ iframe {
 .form-layout {
   text-align: center;
   background-color: #fff;
-  min-width: 504px;
-  min-height: 608px;
+  width: 504px;
+  height: 608px;
   padding: 22px 32px 54px 32px;
   -webkit-box-shadow: 0px -5px 0px #fdd170;
           box-shadow: 0px -5px 0px #fdd170;
@@ -445,7 +445,6 @@ iframe {
   font-weight: bold;
   font-size: 16px;
   line-height: 16px;
-  text-align-last: left;
   cursor: pointer;
   text-decoration: none;
 }

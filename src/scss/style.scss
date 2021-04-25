@@ -130,17 +130,16 @@ iframe {
   &-block {
     display: flex;
     justify-content: space-around;
-    position: relative;
   }
 
   &-anim {
+    position: relative;
     height: 400px;
     width: 500px;
-
     canvas {
       position: absolute;
-      left: -200px;
-      top: -70px;
+      left: -350px;
+      top: -150px;
     }
   }
 }
@@ -171,8 +170,8 @@ iframe {
     text-align: center;
     perspective: 1000px;
     transform-style: preserve-3d;
-    max-width: 284px;
-    max-height: 444px;
+    width: 284px;
+    height: 444px;
   }
 
   &-content {
@@ -222,8 +221,8 @@ iframe {
   &-layout {
     text-align: center;
     background-color: #fff;
-    min-width: 504px;
-    min-height: 608px;
+    width: 504px;
+    height: 608px;
     padding: 22px 32px 54px 32px;
     box-shadow: 0px -5px 0px $mainColor;
   }
@@ -407,7 +406,6 @@ iframe {
     font-weight: bold;
     font-size: 16px;
     line-height: 16px;
-    text-align-last: left;
     cursor: pointer;
     text-decoration: none;
 

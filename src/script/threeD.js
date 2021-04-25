@@ -1,12 +1,12 @@
     // creating scene
     scene = new THREE.Scene();
-    camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000 );
-    camera.position.z = 15;
+    camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+    camera.position.z = 10;
     camera.position.y = 3;
 
     renderer = new THREE.WebGLRenderer({alpha: true, antialias: true});
     renderer.setClearColor(0x000000, 0);
-    renderer.setSize(1024, 600);
+    renderer.setSize(window.innerWidth * 0.7, window.innerHeight * 0.7);
 
     const foxBox = document.querySelector('.fox-anim');
     foxBox.appendChild(renderer.domElement);
@@ -32,7 +32,7 @@
       scene.add(obj.scene);
     });
 
-    // анимация модели
+    // amination model
     function animate() {
       requestAnimationFrame(animate);
 
