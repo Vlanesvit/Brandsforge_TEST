@@ -1,9 +1,20 @@
-@media (min-width: 320px) and (max-width: 480px) {
-  $mainFont: Manrope, sans-serif;
-  $forOneTimeFont: Inter, sans-serif;
-  $mainColor: #fdd170;
-  $mainTextColor: #191b1d;
+$mainFont: Manrope, sans-serif;
+$forOneTimeFont: Inter, sans-serif;
+$mainColor: #fdd170;
+$mainTextColor: #191b1d;
 
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .fox {
+    &-anim {
+      canvas {
+        left: -200px;
+        top: 0px;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
   .container {
     width: 90%;
     width: 300px;
@@ -59,7 +70,7 @@
       canvas {
         position: absolute;
         left: -10px;
-        top: 5px;
+        top: 0px;
       }
     }
   }
