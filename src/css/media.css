@@ -5,7 +5,153 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .work {
+    margin: 50px 0;
+  }
+  .work-title {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 30px;
+  }
+  .work-text {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .fox-anim canvas {
+    left: -100px;
+    top: 50px;
+  }
+  .form-block {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .form-layout {
+    width: 60%;
+    margin-right: 50px;
+  }
+  .tab-block {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .tab-layout {
+    width: 60%;
+    padding: 40px;
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .intro .test-title {
+    font-size: 65px;
+    line-height: 60px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .intro .test-executor {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 38px;
+  }
+  .work {
+    margin: 50px 0;
+  }
+  .work-title {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .work-text {
+    max-width: 450px;
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .fox-block {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .fox-anim canvas {
+    position: absolute;
+    left: -100px;
+    top: 150px;
+  }
+  .card-block {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    vertical-align: top;
+  }
+  .card-wrapper {
+    margin-left: 40px;
+    width: 300px;
+  }
+  .form-block {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .form-layout {
+    margin-right: 30px;
+    width: 400px;
+  }
+  .tab-block {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .tab-layout {
+    display: block;
+    width: 400px;
+    padding: 40px;
+    margin-left: 30px;
+  }
+  .tab-switch {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tab-switch-btn {
+    height: 50px;
+    padding: 12px 30px;
+    font-size: 15px;
+    line-height: 24px;
+    margin-right: 5px;
+  }
+  .tab-switch-btn:last-child {
+    margin-right: 0;
+  }
+  .tab-switch-btn.active {
+    background-color: #f4f4f4;
+    color: #191b1d;
+  }
+  .tab-switch-content {
+    margin-left: 0px;
+    display: none;
+  }
+  .accordion li {
+    padding: 0;
+    width: 100%;
+  }
+  .accordion-title {
+    font-size: 13px;
+    line-height: 14px;
+  }
+  .accordion-text {
+    font-size: 12px;
+    line-height: 15px;
+    display: none;
+    max-width: 240px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
   .container {
     width: 90%;
     width: 300px;
