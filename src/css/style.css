@@ -252,7 +252,7 @@ iframe {
   text-align: center;
   background-color: #fff;
   width: 504px;
-  height: 608px;
+  min-height: 608px;
   padding: 22px 32px 54px 32px;
   -webkit-box-shadow: 0px -5px 0px #fdd170;
           box-shadow: 0px -5px 0px #fdd170;
