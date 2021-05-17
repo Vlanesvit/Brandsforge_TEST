@@ -260,6 +260,7 @@ iframe {
   padding-top: 15px;
   margin-top: 15px;
 
+
   textarea {
     resize: none;
     max-width: 440px;
@@ -278,6 +279,10 @@ iframe {
     padding: 4px 15px;
   }
 
+  &._error &-label {
+    color:#ff0000;
+  }
+
   &-field {
     border: 0;
     z-index: 1;
@@ -289,6 +294,10 @@ iframe {
     font-size: 20px;
     padding: 4px 16px;
 
+    &._error {
+      border-bottom: 1px solid #ff0000;
+    }
+    
     &:focus,
     &:valid {
       outline: 0;

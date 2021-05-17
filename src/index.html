@@ -78,26 +78,26 @@
       <div class="form-block">
         <div class="form-layout">
 
-          <form action="#" class="form-content" enctype="multipart/form-data" method="post">
+          <form id="form" action="#" class="form-content" enctype="multipart/form-data" method="post" novalidate>
             <h4 class="form-content__title">Форма</h4>
             <p class="form-content__text">Дополнительный текст</p>
             <div class="input">
-              <select class="input-field" required>
+              <select id="select" class="input-field _req" required>
                 <option disabled selected></option>
-                <option value="select1">Выбор 1</option>
-                <option value="select2">Выбор 2</option>
-                <option value="select3">Выбор 3</option>
-                <option value="select4">Выбор 4</option>
-                <option value="select5">Выбор 5</option>
+                <option class="select-item" value="select1">Выбор 1</option>
+                <option class="select-item" value="select2">Выбор 2</option>
+                <option class="select-item" value="select3">Выбор 3</option>
+                <option class="select-item" value="select4">Выбор 4</option>
+                <option class="select-item" value="select5">Выбор 5</option>
               </select>
               <label class="input-label">Выбор чего-то *</label>
             </div>
             <div class="input">
-              <input type="tel" class="input-field" required>
+              <input id="phone" type="tel" class="input-field _req" required>
               <label class="input-label">Номер телефона *</label>
             </div>
             <div class="input">
-              <textarea class="input-field" rows="1" required></textarea>
+              <textarea id="textarea" class="input-field _req" rows="1" required></textarea>
               <label class="input-label">Коротко о чем-то ещё</label>
             </div>
             <div class="input-wrapper">
@@ -125,7 +125,6 @@
             <strong>Не реализовал</strong>: 
             <br> -Вывод нескольких файлов загрузки
             <br> -Удаление файла из списка загрузки
-            <br> -Проверку на правильность введенных данных
             <br> -Нет галочки при выборе одного из Выборов (судя по макету она там должна быть).
           </p>
         </div>
@@ -219,7 +218,15 @@
   <script src="https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/loaders/GLTFLoader.js"></script>
   <script src="script/threeD.js"></script>
 
-  <!-- Connect scripts -->
-  <script src="script/app.js"></script>
+  <!-- Connect card.js -->
+  <script src="script/card.js"></script>
+  <!-- Connect validate.js -->
+  <script src="script/validate.js"></script>
+  <!-- Connect customSelect.js -->
+  <script src="script/customSelect.js"></script>
+  <!-- Connect upload.js -->
+  <script src="script/upload.js"></script>
+  <!-- Connect tabs.js -->
+  <script src="script/tabs.js"></script>
 </body>
 </html>

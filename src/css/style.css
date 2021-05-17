@@ -313,6 +313,10 @@ iframe {
   padding: 4px 15px;
 }
 
+.input._error .input-label {
+  color: #ff0000;
+}
+
 .input-field {
   border: 0;
   z-index: 1;
@@ -323,6 +327,10 @@ iframe {
   font-weight: normal;
   font-size: 20px;
   padding: 4px 16px;
+}
+
+.input-field._error {
+  border-bottom: 1px solid #ff0000;
 }
 
 .input-field:focus, .input-field:valid {
